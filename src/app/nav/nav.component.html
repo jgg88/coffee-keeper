@@ -1,8 +1,10 @@
 <header>
-  <div class="container">
+  <!-- <div class="container">
       <a routerLink="/" class="logo">{{ appTitle }}</a>
-  </div>
-  <nav>
+  </div> -->
+  <h1 class="header-title">coffeeKeeper</h1>
+  <img class="menu" src="../../assets/images/menu.png" (click)="this.showMenu()">
+  <nav *ngIf="this.toggleMenu">
     <ul>
       <li><a routerLink="/">Home</a></li>
       <li><a routerLink="/about">About</a></li>

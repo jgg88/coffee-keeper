@@ -1,0 +1,56 @@
+@keyframes bgAnimation {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+@-webkit-keyframes bgAnimation {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
+}
+
+header {
+    padding-top: 25px;
+    color:#fff;
+    background-image: url(../../assets/images/coverimg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-animation: bgAnimation 120s linear infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation: bgAnimation 120s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 5em;
+    color: #FFFFFF;
+    font-family: 'Satisfy', cursive;
+    /* z-index: 1; */
+    margin: 0;
+}
+
+.coverimg {
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+    left: 30px;
+    /* top: 20px; */
+    /* z-index: 1; */
+    bottom: 10px;
+    width: 50px;
+    /* margin: 50px; */
+}
+
+nav {
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+}

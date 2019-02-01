@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   appTitle: string = 'coffeeKeeper';
+  toggleMenu: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showMenu() {
+    this.toggleMenu = !this.toggleMenu;
   }
 
 }
