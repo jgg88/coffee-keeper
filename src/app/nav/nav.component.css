@@ -1,11 +1,11 @@
 @keyframes bgAnimation {
     from {background-position: 0 0;}
-    to {background-position: -180px 0px;}
+    to {background-position: -73px -70px;}
 }
 
 @-webkit-keyframes bgAnimation {
     from {background-position: 0 0;}
-    to {background-position: -180px 0px;}
+    to {background-position: -73px -70px;}
 }
 
 header {
@@ -15,9 +15,9 @@ header {
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
-    -webkit-animation: bgAnimation 120s linear infinite;
+    -webkit-animation: bgAnimation 60s linear 1;
     -webkit-animation-fill-mode: forwards;
-    animation: bgAnimation 120s linear infinite;
+    animation: bgAnimation 60s linear 1;
     animation-fill-mode: forwards;
 }
 
@@ -26,7 +26,6 @@ header {
     font-size: 5em;
     color: #FFFFFF;
     font-family: 'Satisfy', cursive;
-    /* z-index: 1; */
     margin: 0;
 }
 
